@@ -1,0 +1,20 @@
+v1.4
+Added support of Keyboard input
+Added WebGL platform support
+Updated Watermelon Core
+
+v1.3.1
+Support of multiple levels
+
+v1.3
+Core update
+Added skins Store
+
+v1.2
+Bugfixes
+
+v1.1
+Core update
+
+v1.0
+Base

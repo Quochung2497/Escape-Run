@@ -1,0 +1,541 @@
+v2.5.20
+Default sprites and UI udpated
+Added IAP Store Module
+Added support of different platforms to Save Controller
+Added WebGL support to Save Controller
+Reworked Setup Guide new template preview
+Clean up tool update
+Added PU module
+Added button to SimpleCurrencyPanel
+
+v2.5.19
+Added GetRandomPosition method to core extensions
+Updated GetCoinsForAds method in UIStorePage
+Updated FloatingTextController
+Added editor for outline
+Clean up tool update
+Currency enum moved to CurrencyType file
+LineSpacer property drawer fix
+Added "Help -> Open Editor Foleder" action
+Folder actions now works on macOS and Win
+Added a warning message when purchasing products with disabled define
+
+v2.5.18
+Added outline without editor
+
+v2.5.17
+Fixed currency cloud bug after scene refresh
+
+v2.5.16
+Fixed bug with Prefs Settings in new unity version 
+
+v2.5.15
+Added SimpleBounce and FracturedExplosion scripts
+Added canvas size tablet toggle for Smart Screenshot Taker
+
+v2.5.14
+Init module serialization fix
+
+v2.5.13
+Store Module update
+
+v2.5.12
+Added isTablet parameter to Resize SST attribute
+Added CompleteActive Tween extension
+Renamed CurrencyCloud to FloatingCloud
+Added Floating cloud settings to Currency
+
+v2.5.11
+Added new AsyncOperation TweenCase
+Fixed multiobject pool Clear method
+
+v2.5.10
+Added Disable Icon to BaseUpgrade
+Added vibration state check to Vibration module
+CurrencyUISimplePanel now inherits from MonoBehaviour
+Added static Instance to Joystick script
+Added scale parameter to FloatingText Activate method
+
+v2.5.9
+Store 3d preview update
+Store database editor polish
+Store added to Game scene
+JuicyBounce first bounce bug fixed
+
+v2.5.8
+Methods ShowPage(Type), HidePage(Type) removed from UIController
+Event OnCurrencyAmountChanged moved from CurrenciesController to Controller class
+Added collect sound to CurrencyCloud logic
+
+v2.5.7
+Fixed problem with RV store product type
+Added CurrencyCloud to Store UI
+Updated Scene interraction level editor
+SaveController Init method udpate
+Store update: sprites clean up
+Main menu coins panel new implementation
+ScreenInitialiser renamed to ScreenSettings
+Added editor notch calculation to ScreenSettings
+Methods IsGDPRRequired(), GetBannerID(), GetInterstitialID(), GetRewardedVideoID() remoded from AdvertisingHandler.cs
+
+v2.5.6
+Added Last() extension method
+Added SetAlpha(Graphics) extension method
+Added depth parameter to ObjectToString extension method
+
+v2.5.5
+Fixed obsolete Shaders node
+Extended Editor folder moved to Core folder
+Removed Seaport namespace in DoColorTween class
+GDPR click events subscription moved to code
+SaveController method SaveToFile renamed to SaveCustom
+
+v2.5.4
+Added SimpleCurrencyUIPanel script
+Online documentation generator added to SetupGuideWindow script
+
+v2.5.3
+Currency UI divided from Currency Controller
+Modified multi pool weight recalculation logic
+Removed all HOMA related code
+Fixed Store bug when button was disabled if purchase type is Rewarded Video
+Fixed Store bug when Store UI prefab wasn't added to Pool Manager
+Added GetSelectedProductData(TabType tabType) method to Store Controller
+Added parameter to InitialisePages(Type defaultPageType) UIController method
+Added to SaveController method SaveToFile(GlobalSave globalSave) that allows to serialise global save to main save file (can be useful for editors)
+Added to SaveController method GetGlobalSave() that creates or loads from file global save (can be useful for editors)
+Added Static panels to Currencies UI Controller
+All Text components replaced with TMP
+Currency Animation scripts moved to obsolute modules folder
+Added font with shadow effect
+
+v2.5.2
+Vibration module returned to Extra Modules
+Actions menu update
+
+v2.5.1
+Custom List script update
+Level Editor files moved to Editor System folder
+
+v2.5
+Unused components moved to Obsolete Components folder
+Removed IInitialized interface
+Floating Text key type changed from enum to int hash
+Screen refresh rate moved from init module to Initialiser variable ScreenSettings
+Decreased loading screen fade time
+Added static Control script to manage user input state
+Removed Persistant folder and all scripts moved to base modules folders
+Updated fonts with missing characters
+Store texts replaced with TMP
+
+v2.4.7
+Moved some core scripts into Watermelon namespace
+Frame rate manager added by default
+Removed ApplicationConsts file
+
+v2.4.6
+Added ReordableList to SavePresetsWindow
+
+v2.4.5
+Updated SmartScreenShotTaker
+
+v2.4.4
+Fixed CurrenciesControllerEditor
+Fixed IAP modules warnings
+Updated Advertisment module
+Changed Project structure
+ISaveObject interface removed
+Achievements reworked
+
+v2.4.3
+Added GDPR to Ads module
+Added Loading Tasks to GameLoading module
+Renamed script GameLoadingController to GameLoading
+
+v2.4.2
+Editor | Added validation methods into default Actions menu
+
+v2.4.1
+Added default TextMeshPro fonts (regular, outline, shadow)
+Reworked IAP Canvas using TextMeshPro texts
+Reworked FloatingText Canvas using TextMeshPro texts
+Removed OpenSans font
+Added TextureExporter tool that allows to save Texture2D as PNG file
+Added FredokaOne font licence file
+
+v2.4
+IAP modudle update
+Advertisement module update
+Removed IronSource ads provider
+Added Watermelon namespace to all scripts
+
+v2.3.39
+Added ToggleTypes
+
+v2.3.38
+TweenCase update. Added delay to every tweenCase + fixed TweenCaseTransfomPingPongScale
+
+v2.3.37
+PoolManager update.
+
+v2.3.36
+IronSource v7.3.0.1 support
+
+v2.3.35
+AdMob v8.1.0 support
+
+v2.3.34
+IAP modudle update
+
+v2.3.33
+Added deep clone feature into Serializer
+
+v2.3.32
+Added visibility ignore of Dummy Banner to AdsManager
+
+v2.3.31
+Added Support Log Generator | fixed Init Settings double removing bug | removed Multilanguage asset from Content folder | renamed Changelog.txt to Template Changelog.txt
+
+v2.3.30
+Actions Menu added | Gameloading logic modified
+
+v2.3.29
+Project downgraded to Unity 2021, added Injection controller to Presets Controller, fixed scene transition bug, added default actions to Presets Controller, fixed Creatives Pointer prefab
+
+v2.3.28
+Added PhysicsHelper + updated UIController + disabled warnings in core scripts 
+
+v2.3.27
+Updated Save module and Save Presets tool
+
+v2.3.26
+Updated Floating Text module
+
+v2.3.25
+One and Zero methods for duotypes
+
+v2.3.24
+Tween from spider fighter, ui particle and doTween
+
+v2.3.23
+Unity 2022 update, loading scene, save and upgrades systems update, exp and UI update, save presets tool
+
+v2.3.22
+Added Clamp method for DuoInt, DuoFloat, DuoDouble and added 2 methods to Tween module 
+
+v2.3.21
+Pool Manager module updated
+
+v2.3.20
+Added Creatives Pointer tool to core
+
+v2.3.19
+Added Building tool script and changed validation message in one of the level editors
+
+v2.3.18
+Fixed Project Cleanup tool
+
+v2.3.17
+Renamed ReadOnly attribute to ReadOnlyField
+
+v2.3.16
+Small fix in Unity Ads editor
+
+v2.3.15
+Updated Unity Ads editor + added preprocessor script
+
+v2.3.14
+Updated default placements for Unity Ads
+
+v2.3.13
+Simplified RandomBetween method name to Random in all duo classes
+
+v2.3.12
+Updated core to version 2021.3.8f LTS
+
+v2.3.11
+Updated scripts PooledObjectSettings(added methods), TweenCase (added 2 tweens),SetupGuideInfoEditor(removed warnings)
+
+v2.3.10
+Fixed preprocessor directives in  UnityAdsHandler
+
+v2.3.9
+Added Currencies Module 
+
+v2.3.8
+Fixed bug with AdMobHandler and UnityAdsHandler
+
+v2.3.7
+Setup Guide Info page now displays core version and project version
+
+v2.3.6
+Tween update: added new tween Transform.DoRotateConstant
+
+v2.3.5
+Added new test device to AdMobHandler
+
+v2.3.4
+UnityAdsHandler updated
+
+v2.3.3
+Store bug with ads fix
+
+v2.3.2
+AdMobHandler fixed
+
+v2.3.1
+Unity Ads Handler updated
+
+v2.3.0
+Core structure simplified + easier to update
+
+v2.2.51
+Update Setup Guide
+
+v2.2.50
+Small update for Scene interraction level editor
+
+v2.2.49
+Iron source small fix + Changed change log in Advertisement module
+
+v2.2.48
+Git ignore update | project setup guide update | default packages update
+
+v2.2.47
+Added Floating Message to Project Init Settings 
+
+v2.2.46
+Admob bug fix + Empty floating message bug fix
+
+v2.2.45
+Admob settings editor updated + added build preprocess script to fix admob bug with empty ids
+
+v2.2.44
+Store module update
+
+v2.2.43
+Admob settings editor updated
+
+v2.2.42
+Added bezier follow move tween
+Added touch event to Joystick controller
+Added app id customization to admob
+
+v2.2.41
+Bezier script moved to utils folder
+Added bezier move tween
+Added look at tween
+Added PrefferedHeight (LayaoutElement) tween
+Added Save module
+
+v2.2.40
+Settings panel fix
+
+v2.2.39
+Ads module update. Admob Handler bugfix
+
+v2.2.38 
+Added iPhone SE to standard resolutions
+
+v2.2.37 
+Added a little space to CleanUpToolWindow
+
+v2.2.36 
+Fixed bug with WatermelonWindow
+
+v2.2.35 
+Added defines to firebase module
+
+v2.2.34 
+Store module bugfix
+
+v2.2.33
+Updated "Tested with versions" at AdSettings
+
+v2.2.32
+UI Module updated
+
+v2.2.31
+Added button sound to the default settings button
+
+v2.2.30
+Added Simple Outline module
+
+v2.2.29
+Audio folder renamed
+
+v2.2.28
+Added Universal Shader
+
+v2.2.27
+Added MenuItem for selecting Project Init Settings.asset
+
+v2.2.26
+Added Project Cleaner Tool
+
+v2.2.25
+Updated Store
+
+v2.2.24
+Level editors module updated
+
+v2.2.23
+Unity Ads provider fix
+
+v2.2.22
+Add missing methods to AudioController
+Add method to initialize PrefsSettings in Editor
+Added Json Save Editor to extra modules
+Slightly modified  Tween.cs
+Updated DuoTypes
+
+v2.2.21
+Modified store, Changed Store Canvas View
+
+v2.2.20
+Added Color Debug util
+Changed UIMainMenu page
+
+v2.2.19
+Removed Pause Controller, Added Touch Handler to the Game Page, Made Game Page by default page
+
+v2.2.18
+Moved UITouchHandler to the UI Scripts Folder
+
+v2.2.17
+Added new default UI structure
+
+v2.2.16
+Main project folder renamed to Project Data
+Shaders fix
+
+v2.2.15
+Store Module v0.9.3
+
+v2.2.14
+Custom list update
+
+v2.2.13
+IAP Module updated to v1.0.2
+
+v2.2.12
+Added TextMeshPro define (TMP_ENABLED)
+
+v2.2.11
+Settings update v0.3
+Audio Controller update v0.3.2
+
+v2.2.10
+Changed Initialiser bools to static
+Added Recordings folder to .gitigrnore
+
+v2.2.9
+Smart Selector update (added select first/last child)
+Added folder icon (icon_folder)
+Added ResetLocal and ResetGlobal Transform extensions
+Smart Screenshot Taker update (added saving stage, added transparent toggle, updated window layout)
+
+v2.2.8
+Screenshot taker fix
+Shaders update
+
+v2.2.7
+Tween module update
+Advertisement module update
+Frame Rate Manager iOS fix
+Default settings fix
+PrefsSettings module update
+
+v2.2.6
+Fixed audio controller vibration prefs
+GDPR fix
+AdsManager GameAnalytics event fix
+
+v2.2.5
+Added prefs settings module
+
+v2.2.4
+Added services modules (Firebase, AppsFlyer, Facebook, GameAnalytics)
+
+v2.2.3
+Initialiser fixed error on module add
+Reworked InitModule register logic
+Added Frame Rate Manager module
+
+v2.2.2
+Initialiser fixed error on module remove
+Added floating message module
+Added OnComplete method to TweenCaseCollection
+Updated GDPR style
+Edited Smart Screenshot Taker aspect ratios for portrait orientation
+Added material float tween
+
+v2.2.1
+Added TweenCaseCollection to Tween module
+Fixed GDPR bug
+
+v2.2.0
+Advertisement module update
+Settings panel update
+GDPR update
+Added default button sound
+Added default music
+Project restructure
+
+v2.1.9
+Pool manager pro theme support
+
+v2.1.8
+Tween update
+
+v2.1.7
+Black theme support
+Object to string extension
+
+v2.1.6
+Settings panel fast toggle fix
+
+v2.1.5
+GDPR open state check
+
+v2.1.4
+Advertisement module fix
+Define Manager fix
+
+v2.1.3
+Unity Ads support fixed for Advertisement module
+
+v2.1.2
+Settings Panel added
+
+v2.1.1
+Setup Guide layout update
+
+v2.1
+Pool update
+Inititalizer update
+IAP manager update
+Added discord link to Setup Guide Window
+Audio Controller update
+
+v2.0.5
+Core update
+
+v2.0.4
+Setup Guide update
+Multilanguage update
+
+v2.0.3
+Updated SmartSelection | renamed context menu
+
+v2.0.2
+Added Validator
+Fixed EditorCoroutine
+NativeAudio removed from AudioController
+
+v2.0.1
+Added Smart Selector
+
+v2.0.0
+Changed prototype structure
+Added Watermelon namespace to all classes

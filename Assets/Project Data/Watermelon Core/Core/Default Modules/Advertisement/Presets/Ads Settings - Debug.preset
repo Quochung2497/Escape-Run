@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ads Settings - Debug
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 15ddb41bf72d53a48a6bdc593d706f94,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bannerType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: interstitialType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rewardedVideoType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.androidBannerID
+    value: ca-app-pub-3940256099942544/6300978111
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.IOSBannerID
+    value: ca-app-pub-3940256099942544/2934735716
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.androidInterstitialID
+    value: ca-app-pub-3940256099942544/1033173712
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.IOSInterstitialID
+    value: ca-app-pub-3940256099942544/4411468910
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.androidRewardedVideoID
+    value: ca-app-pub-3940256099942544/5224354917
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.IOSRewardedVideoID
+    value: ca-app-pub-3940256099942544/1712485313
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.bannerType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adMobContainer.bannerPosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.androidAppID
+    value: 1234567
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.IOSAppID
+    value: 1234567
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.androidBannerID
+    value: banner
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.IOSBannerID
+    value: banner
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.androidInterstitialID
+    value: video
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.IOSInterstitialID
+    value: video
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.androidRewardedVideoID
+    value: rewardedVideo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.IOSRewardedVideoID
+    value: rewardedVideo
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unityAdsContainer.bannerPosition
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dummyContainer.bannerPosition
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gdprContainer.enableGDPR
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: gdprContainer.privacyLink
+    value: https://google.com.ua
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adsFrequency.insterstitialFirstDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: adsFrequency.interstitialShowingDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: testMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: systemLogs
+    value: 1
+    objectReference: {fileID: 0}

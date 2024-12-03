@@ -1,0 +1,656 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7535a280ec843954198e8be623485187, type: 3}
+  m_Name: StylesDatabase
+  m_EditorClassIdentifier: 
+  styles:
+  - name: Default style
+    header:
+      contentPaddingLeft: 6
+      contentPaddingRight: 6
+      contentPaddingTop: 2
+      contentPaddingBottom: 2
+      backgroundConfiguration:
+        rects:
+        - paddingLeft: 0
+          paddingRight: 0
+          paddingTop: 0
+          paddingBottom: 0
+          color: {r: 0.22, g: 0.22, b: 0.22, a: 1}
+          borderWidth: {x: 0, y: 0, z: 0, w: 1}
+          borderRadius: {x: 0, y: 0, z: 0, w: 0}
+          rectType: 1
+      height: 20
+      labelStyle:
+        m_Name: label
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 4
+          m_Right: 4
+          m_Top: 2
+          m_Bottom: 2
+        m_Padding:
+          m_Left: 2
+          m_Right: 2
+          m_Top: 1
+          m_Bottom: 1
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 0
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+    list:
+      contentPaddingLeft: 6
+      contentPaddingRight: 6
+      contentPaddingTop: 2
+      contentPaddingBottom: 2
+      backgroundConfiguration:
+        rects: []
+    element:
+      collapsedElementHeight: 20
+      headerPaddingLeft: 0
+      headerPaddingRight: 6
+      headerPaddingTop: 0
+      headerPaddingBottom: 0
+      bodyPaddingLeft: 0
+      bodyPaddingRight: 0
+      bodyPaddingTop: 0
+      bodyPaddingBottom: 0
+      elementHeaderBackgroundConfiguration:
+        rects:
+        - paddingLeft: 0
+          paddingRight: 0
+          paddingTop: 0
+          paddingBottom: 0
+          color: {r: 0.172549, g: 0.3647059, b: 0.5294118, a: 1}
+          borderWidth: {x: 0, y: 0, z: 0, w: 0}
+          borderRadius: {x: 0, y: 0, z: 0, w: 0}
+          rectType: 0
+          drawType: 1
+      elementBodyBackgroundConfiguration:
+        rects: []
+    dragHandle:
+      paddingLeft: 5
+      paddingBottom: 6
+      width: 10
+      height: 6
+      allocatedHorizontalSpace: 20
+      guiStyle:
+        m_Name: RL DragHandle
+        m_Normal:
+          m_Background: {fileID: -6754115436749502611, guid: 0000000000000000d000000000000000,
+            type: 0}
+          m_ScaledBackgrounds:
+          - {fileID: 5181884375089325322, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.043137256, g: 0.043137256, b: 0.043137256, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 6
+          m_Right: 6
+          m_Top: 6
+          m_Bottom: 6
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 1
+        m_Alignment: 7
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 3
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 6
+        m_StretchWidth: 0
+        m_StretchHeight: 0
+    foldout:
+      guiStyle:
+        m_Name: Foldout
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: -6801349707174745596, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: -1674602421990392834, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.29803923, g: 0.49411765, b: 1, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: 3684442412078439994, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: 8938427661926886800, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: -8680445939362908933, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.29803923, g: 0.49411765, b: 1, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds:
+          - {fileID: 6561537487811827939, guid: 0000000000000000d000000000000000, type: 0}
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Border:
+          m_Left: 14
+          m_Right: 0
+          m_Top: 13
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 0
+          m_Right: 4
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 14
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: -2
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 0
+        m_Alignment: 3
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 0
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      width: 13
+      height: 13
+      paddingBottom: 3
+      paddingLeft: 3
+      allocatedHorizontalSpace: 20
+    removeElementButton:
+      guiStyle:
+        m_Name: label
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 4
+          m_Right: 4
+          m_Top: 2
+          m_Bottom: 2
+        m_Padding:
+          m_Left: 2
+          m_Right: 2
+          m_Top: 1
+          m_Bottom: 1
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 16
+        m_FontStyle: 1
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      width: 20
+      height: 20
+      paddingRight: 0
+      paddingLeft: 6
+      allocatedHorizontalSpace: 26
+      content:
+        m_Text: X
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    pagination:
+      contentPaddingLeft: 6
+      contentPaddingRight: 6
+      contentPaddingTop: 0
+      contentPaddingBottom: 4
+      backgroundConfiguration:
+        rects:
+        - paddingLeft: 0
+          paddingRight: 0
+          paddingTop: 0
+          paddingBottom: 0
+          color: {r: 0.22, g: 0.22, b: 0.22, a: 1}
+          borderWidth: {x: 0, y: 1, z: 0, w: 0}
+          borderRadius: {x: 0, y: 0, z: 0, w: 0}
+          rectType: 1
+      labelStyle:
+        m_Name: label
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 4
+          m_Right: 4
+          m_Top: 2
+          m_Bottom: 2
+        m_Padding:
+          m_Left: 2
+          m_Right: 2
+          m_Top: 1
+          m_Bottom: 1
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 0
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 0
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      buttonStyle:
+        m_Name: RL FooterButton
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: -3
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 1
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 16
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      firstPageContent:
+        m_Text: <<
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      previousPageContent:
+        m_Text: <
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      nextPageContent:
+        m_Text: '>'
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      lastPageContent:
+        m_Text: '>>'
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      buttonsWidth: 25
+      buttonsHeight: 16
+      labelHeight: 20
+      height: 20
+    footerButtons:
+      marginRight: 10
+      spaceBetweenButtons: 0
+      paddingTop: 4
+      paddingLeft: 4
+      paddingRight: 4
+      buttonStyle:
+        m_Name: RL FooterButton
+        m_Normal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Hover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Active:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Focused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnNormal:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnHover:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnActive:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_OnFocused:
+          m_Background: {fileID: 0}
+          m_ScaledBackgrounds: []
+          m_TextColor: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+        m_Border:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Margin:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Padding:
+          m_Left: 0
+          m_Right: 0
+          m_Top: 0
+          m_Bottom: 0
+        m_Overflow:
+          m_Left: 0
+          m_Right: 0
+          m_Top: -3
+          m_Bottom: 0
+        m_Font: {fileID: 0}
+        m_FontSize: 12
+        m_FontStyle: 1
+        m_Alignment: 4
+        m_WordWrap: 0
+        m_RichText: 0
+        m_TextClipping: 1
+        m_ImagePosition: 0
+        m_ContentOffset: {x: 0, y: 0}
+        m_FixedWidth: 0
+        m_FixedHeight: 16
+        m_StretchWidth: 1
+        m_StretchHeight: 0
+      buttonsWidth: 25
+      buttonsHeight: 16
+      addButton:
+        m_Text: 
+        m_Image: {fileID: -2898646326628310891, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_Tooltip: 
+      removeButton:
+        m_Text: 
+        m_Image: {fileID: -8887860103969893004, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_Tooltip: 
+      height: 20
+      backgroundConfiguration:
+        rects:
+        - paddingLeft: 0
+          paddingRight: 0
+          paddingTop: -1
+          paddingBottom: 1
+          color: {r: 0.302, g: 0.302, b: 0.302, a: 1}
+          borderWidth: {x: 1, y: 0, z: 1, w: 1}
+          borderRadius: {x: 0, y: 0, z: 0, w: 0}
+          rectType: 0
+        - paddingLeft: 0
+          paddingRight: 0
+          paddingTop: -1
+          paddingBottom: 0
+          color: {r: 0.141, g: 0.141, b: 0.141, a: 1}
+          borderWidth: {x: 1, y: 0, z: 1, w: 1}
+          borderRadius: {x: 0, y: 0, z: 4, w: 4}
+          rectType: 1
+    globalBackground:
+      rects:
+      - paddingLeft: 1
+        paddingRight: 1
+        paddingTop: 1
+        paddingBottom: 21
+        color: {r: 0.302, g: 0.302, b: 0.302, a: 1}
+        borderWidth: {x: 1, y: 1, z: 1, w: 1}
+        borderRadius: {x: 4, y: 4, z: 4, w: 4}
+        rectType: 0
+      - paddingLeft: 0
+        paddingRight: 0
+        paddingTop: 0
+        paddingBottom: 20
+        color: {r: 0.141, g: 0.141, b: 0.141, a: 1}
+        borderWidth: {x: 1, y: 1, z: 1, w: 1}
+        borderRadius: {x: 4, y: 4, z: 4, w: 4}
+        rectType: 1
+    enableHeader: 0
+    enableElementRemoveButton: 0
+    enableFooterRemoveButton: 1
+    enableFooterAddButton: 1
+    EMPTY_LIST_LABEL: List is empty
