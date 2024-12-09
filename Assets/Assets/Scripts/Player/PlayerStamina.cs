@@ -90,6 +90,7 @@ public class PlayerStamina : MonoBehaviour
         {
             playerController.isRunning = true;
         }
+        TouchFieldPanel.instance.CompleteStaminaPhase();
     }
 }
 
